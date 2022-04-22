@@ -40,7 +40,7 @@ export function coinFlip() {
 export function coinFlips(flips) {
   const arr = [];
   for (let i = 0; i < flips; i++) {
-    ret[i] = coinFlip();
+    arr[i] = coinFlip();
   }
   return arr;
 }
